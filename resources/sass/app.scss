@@ -4,5 +4,24 @@
 // Variables
 @import 'variables';
 
+
+
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+@import 'admin';
+//
+
+.logo{
+  color: #636b6f !important;
+  font-size: 25px;
+  letter-spacing: 0.1em;
+}
+
+
+
+.dashboard
+{
+  font-size: 20px;
+  color: red;
+    }

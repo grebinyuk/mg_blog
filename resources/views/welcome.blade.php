@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>MG</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -64,7 +64,15 @@
         </style>
     </head>
     <body>
+
         <div class="flex-center position-ref full-height">
+        {{-- <div class="links align-self-start">
+          <a href="#" class="links  ">MG blog</a>
+        </div> --}}
+
+
+
+
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
@@ -85,9 +93,9 @@
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com">laravel</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://github.com">GitHub</a>
+                    <a href="{{ url('/home') }}">HOME</a>
+                    <a href="#">BLOG</a>
+                    <a href="https://github.com/grebinyuk/mg_blog">GitHub</a>
                 </div>
             </div>
         </div>
