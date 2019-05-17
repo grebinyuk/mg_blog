@@ -175,6 +175,10 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+
+        Unishap\Ckeditor\ServiceProvider::class,
+
+        App\Provides\BlogProvider::class,
     ],
 
     /*

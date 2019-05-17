@@ -2,11 +2,7 @@
 
  @section('content')
   <div class="container">
-    {{-- @component('admin.articles.chanks.form_title')
-      @slot('title') Create post  @endslot
-      @slot('parent') Main @endslot
-      @slot('active') Posts @endslot
-    @endcomponent --}}
+
 
     <h2 class="text-secondary">Create post</h2>
     <ol class="breadcrumb">
