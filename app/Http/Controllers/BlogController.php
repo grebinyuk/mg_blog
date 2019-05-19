@@ -12,7 +12,7 @@ class BlogController extends Controller
       // $article=Article::where('slug', $slug)->first();
 
       return view('blog.posts', [
-        'posts'=>Article::where('published', 1)->get()
+        'posts'=>Article::where('published', 1)->orderBy('created_at', 'desc')->get()
         // 'posts'=>$article->where('published', 1)->paginate(12)
 
       ]);

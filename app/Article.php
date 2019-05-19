@@ -9,7 +9,7 @@ class Article extends Model
 {
 
 
-    protected $fillable =['title', 'slug', 'description_short', 'description', 'image', 'imge_show',' meta_title', 'meta_description', 'meta_keyword', 'published', 'created_by', 'modified_by'];
+    protected $fillable =['title', 'slug', 'description_short', 'description', 'image', 'imge_show', 'meta_title', 'meta_description', 'meta_keyword', 'published', 'created_by', 'modified_by'];
 
 
     public function setSlugAttribute($value){

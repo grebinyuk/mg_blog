@@ -9,8 +9,11 @@
 
       <div class="row">
         <div class="col-sm-12">
-          <h2><a href="{{route('post', $post->slug)}}">{{$post->title}}</a></h2>
-          <p>{!!$post->description_short!!}</p>
+          <div class="jumbotron jumbotron-fluid">
+            <h2 class="ml-5 text-uppercase font-weight-bold text-secondary"><a href="{{route('post', $post->slug)}}">{{$post->title}}</a></h2>
+              <hr class="my-2">
+            <p class="ml-5 text-secondary">{!!$post->description_short!!}</p>
+          </div>
         </div>
 
       </div>

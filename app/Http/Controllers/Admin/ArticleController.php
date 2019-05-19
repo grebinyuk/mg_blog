@@ -27,7 +27,7 @@ class ArticleController extends Controller
      */
     public function create()
     {
-        
+
         return view('admin.articles.create',[
           'article'=>[]
         ]);
@@ -79,7 +79,7 @@ class ArticleController extends Controller
      */
     public function update(Request $request, Article $article)
     {
-        $article->update($request->exept('slug'));
+        $article->update($request->except('slug'));
 
         return redirect()->route('admin.article.index');
     }

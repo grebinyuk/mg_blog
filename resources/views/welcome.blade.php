@@ -4,11 +4,11 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>MG</title>
+        <title>MG blog</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
+        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
         <!-- Styles -->
         <style>
             html, body {
@@ -36,7 +36,7 @@
 
             .top-right {
                 position: absolute;
-                right: 10px;
+                right: 10%;
                 top: 18px;
             }
 
@@ -61,14 +61,27 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+            .logo-container{
+              position:absolute;
+              top: 18px;
+              left: 10%;
+            }
+            .logo{
+              color: #636b6f ;
+              font-size: 25px;
+              text-decoration: none;
+              letter-spacing: 0.1em;
+            }
         </style>
     </head>
     <body>
 
         <div class="flex-center position-ref full-height">
-        {{-- <div class="links align-self-start">
-          <a href="#" class="links  ">MG blog</a>
-        </div> --}}
+
+
+        <div class="logo-container">
+          <a  href="{{ url('/') }}" class="logo navbar-brand">MG blog</a>
+        </div>
 
 
 
@@ -94,7 +107,7 @@
 
                 <div class="links">
                     <a href="{{ url('/home') }}">HOME</a>
-                    <a href="#">BLOG</a>
+                     <a href="{{route('post')}}">BLOG</a>  
                     <a href="https://github.com/grebinyuk/mg_blog">GitHub</a>
                 </div>
             </div>

@@ -1,9 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
 
-.statistic-item {
-  background-color: #dae9f9 !important;
-}
-
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -10666,9 +10662,18 @@ a.text-dark:focus {
   }
 }
 
+.statistic-item {
+  background-color: #dae9f9 !important;
+}
+
 .logo {
   color: #636b6f !important;
   font-size: 25px;
   letter-spacing: 0.1em;
+}
+
+.dashboard {
+  font-size: 20px;
+  color: red;
 }
 
