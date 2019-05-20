@@ -2,11 +2,7 @@
 
 @section('content')
   <div class="container">
-    {{-- @component('admin.components.breadcrumb')
-      @slot('title')Список новостей @endslot
-      @slot('parent') Главная  @endslot
-      @slot('active')новости @endslot
-    @endcomponent --}}
+  
 
     <h2 class="text-secondary">Posts lists</h2>
     <ol class="breadcrumb">

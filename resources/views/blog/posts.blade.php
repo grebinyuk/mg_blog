@@ -1,8 +1,6 @@
 @extends('layouts.app')
 
-{{-- @section('title', $posts->title)
 
-@endsection --}}
 @section('content')
   <div class="container">
     @forelse ($posts as $post)
@@ -22,6 +20,6 @@
         <h2 class="text-center">Empty</h2>
     @endforelse
 
-    {{-- {{$posts->links()}} --}}
+
   </div>
 @endsection

@@ -2,11 +2,7 @@
 
 @section('content')
   <div class="container">
-    {{-- @component('admin.components.breadcrumb')
-      @slot('title') Edit post  @endslot
-      @slot('parent') Admin pnel @endslot
-      @slot('active') Posts @endslot
-    @endcomponent --}}
+  
 
     <h2 class="text-secondary">Edit post</h2>
     <ol class="breadcrumb">
